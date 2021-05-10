@@ -1,5 +1,7 @@
 using System;
 using SampSharp.GameMode;
+using SampSharp.GameMode.Events;
+using SampSharp.GameMode.World;
 
 namespace Gamemode
 {
@@ -12,11 +14,12 @@ namespace Gamemode
             base.OnInitialized(e);
 
             Console.WriteLine("\n----------------------------------");
-            Console.WriteLine(" Blank game mode by your name here");
+            Console.WriteLine(" pomocniczy.lc-rp.pl");
             Console.WriteLine("----------------------------------\n");
 
             // TODO: Put logic to initialize your game mode here
         }
+     
 
         #endregion
     }
